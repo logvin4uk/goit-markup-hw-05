@@ -52,6 +52,9 @@ img {
 
 /* header*/
 
+.header-container {
+  border-bottom: 1px solid #ececec;
+}
 .header {
   display: flex;
   align-items: center;
@@ -60,7 +63,7 @@ img {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 1px solid #ececec;
+  /* border-bottom: 1px solid #ececec; */
 }
 .logotop {
   margin-right: 92px;
@@ -619,29 +622,28 @@ img {
 }
 
 .project-list-link:hover .project-overlay,
-.project-list-link:focus .project-overlay{
+.project-list-link:focus .project-overlay {
   transform: translateY(0);
 }
 
-.project-thumb{
+.project-thumb {
   position: relative;
   overflow: hidden;
 }
 
-.project-overlay{
+.project-overlay {
   position: absolute;
   top: 0;
   left: 0;
-
 
   transform: translateY(100%);
 
   width: 100%;
   height: 100%;
 
-  background-color:rgba(33, 150, 243, 0.9);
+  background-color: rgba(33, 150, 243, 0.9);
   display: flex;
-  align-items:center;
+  align-items: center;
   padding-left: 24px;
   padding-right: 24px;
 
@@ -650,14 +652,12 @@ img {
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-
-
-.project-overlay-text{
+.project-overlay-text {
   font-weight: 400;
-font-size: 18px;
-line-height: 28px;
-letter-spacing: 0.03em;
-color: #FFFFFF;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+  color: #ffffff;
 }
 
 .project-info {
@@ -715,7 +715,7 @@ color: #FFFFFF;
     0px 2px 1px rgba(0, 0, 0, 0.2);
 
   transition-property: visibility, opacity;
-  transition-duration: 250ms;
+  transition-duration: 1100ms;
   animation-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -746,10 +746,10 @@ color: #FFFFFF;
   fill: #000;
 }
 
-.current-page{
+.current-page {
   color: var(--active-color);
 }
-.current-page::after{
+.current-page::after {
   content: '';
   position: absolute;
   left: 50%;
