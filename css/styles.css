@@ -100,6 +100,7 @@ img {
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
   text-decoration: none;
+
   color: var(--text-color);
 }
 
@@ -204,7 +205,7 @@ img {
 .advantages_image {
   display: flex;
   height: 120px;
-  justify-content:center;
+  justify-content: center;
   align-items: center;
   background-color: #f5f4fa;
   margin-bottom: 30px;
@@ -464,7 +465,6 @@ img {
 .bottom-social-link:focus {
   background-color: var(--active-color);
 }
-
 
 .filter-list {
   list-style-type: none;
